@@ -6,10 +6,21 @@ Epson L120 by resetting its waste ink counters over USB.
 Resetting the counters doesn't empty the pad. Clean or replace it, or fit an external
 waste tank, or ink can leak out of the printer.
 
+## Download
+
+[**Download InkPadResetter.exe**](https://github.com/rupertbulquerin/epson-ink-pad-resetter/releases/latest/download/InkPadResetter.exe)
+from the [latest release](https://github.com/rupertbulquerin/epson-ink-pad-resetter/releases/latest).
+It's a single 65 MB file for 64-bit Windows 10 or 11 with nothing to install, and it doesn't
+need .NET or admin rights.
+
+The exe isn't code-signed yet, so Windows SmartScreen may say "Windows protected your PC".
+Choose **More info → Run anyway**, or build it yourself from source (below). The release
+notes list the file's SHA-256 so you can check your download.
+
 ## Use
 
 1. Connect the L120 by USB, turn it on, and make sure no print job is stuck in the queue.
-2. Run `dist\InkPadResetter.exe`. It reads the printer and backs up the whole EEPROM
+2. Run `InkPadResetter.exe`. It reads the printer and backs up the whole EEPROM
    (512 bytes) to `Documents\Ink Pad Resetter\Backups` before the Reset button unlocks.
 3. Tick the pad checkbox, press **Reset counters**, then turn the printer off and on.
 
