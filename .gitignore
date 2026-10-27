@@ -1,0 +1,7 @@
+bin/
+obj/
+dist/
+*.user
+.vs/
+# EEPROM dumps are per-printer data, not source
+backups/

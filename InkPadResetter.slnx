@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/InkPadResetter.App/InkPadResetter.App.csproj" />
+    <Project Path="src/InkPadResetter.Core/InkPadResetter.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/InkPadResetter.Tests/InkPadResetter.Tests.csproj" />
+  </Folder>
+</Solution>
